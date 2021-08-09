@@ -51,7 +51,7 @@ user2.abouts.create(
 )
 
 user1.goals.create(
-  short_term_goal: "Find fulfilling employment!",
+  short_term_goal: "Find fulfilling employment! :)",
   long_term_goal: "Create a cooperative/multiplayer video game or a full length film.",
 )
 
