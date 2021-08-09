@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # patch "/about" => "abouts#update"
 
   get "/favorites" => "favorites#index"
+  # get "/favorites/:user_id" => "favorites#show"
   post "/favorites" => "favorites#create"
   # patch "/favorites/:id" => "favorites#update"
 

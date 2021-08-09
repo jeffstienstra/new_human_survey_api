@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 2021_08_09_004752) do
 
   create_table "abouts", force: :cascade do |t|
     t.integer "user_id"
-    t.string "name"
-    t.string "accomplishments"
-    t.string "superpower"
+    t.string "name", null: false
+    t.string "accomplishments", null: false
+    t.string "superpower", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
