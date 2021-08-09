@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get "/about" => "about#index"
-  post "/about" => "about#create"
-  patch "/about" => "about#update"
+  get "/about" => "abouts#index"
+  post "/about" => "abouts#create"
+  patch "/about" => "abouts#update"
 
   get "/favorites" => "favorites#index"
   post "/favorites" => "favorites#create"
