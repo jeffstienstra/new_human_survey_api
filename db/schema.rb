@@ -25,9 +25,9 @@ ActiveRecord::Schema.define(version: 2021_08_09_004752) do
   end
 
   create_table "favorites", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.string "category", null: false
-    t.string "description", null: false
+    t.integer "user_id"
+    t.string "category"
+    t.string "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,16 +1,16 @@
 Rails.application.routes.draw do
   # get "/about" => "abouts#index"
   post "/about" => "abouts#create"
-  # patch "/about" => "abouts#update"
+  patch "/about/:id" => "abouts#update"
 
   get "/favorites" => "favorites#index"
   # get "/favorites/:user_id" => "favorites#show"
   post "/favorites" => "favorites#create"
-  # patch "/favorites/:id" => "favorites#update"
+  patch "/favorites/:id" => "favorites#update"
 
   # get "/goals" => "goals#index"
   post "/goals" => "goals#create"
-  # patch "/goals/:id" => "goals#update"
+  patch "/goals/:id" => "goals#update"
 
   post "/sessions" => "sessions#create"
 
